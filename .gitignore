@@ -1,0 +1,5 @@
+**/.idea
+**/node_modules
+**/react-frontend/mindtech-apps-react-frontend/src/services/generated
+**/target
+**.iml
