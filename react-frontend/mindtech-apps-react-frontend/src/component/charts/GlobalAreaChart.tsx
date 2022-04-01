@@ -22,7 +22,7 @@ export default function GlobalAreaChart(props: any) {
                                 {
                                     props.areas.map((area: any, index: number) => {
                                         return (
-                                            <linearGradient id={'color-' + index} x1="0" y1="0" x2="0" y2="1">
+                                            <linearGradient key={'color-' + index} id={'color-' + index} x1="0" y1="0" x2="0" y2="1">
                                                 <stop offset="5%" stopColor={area.stroke} stopOpacity={0.8}/>
                                                 <stop offset="95%" stopColor={area.fill} stopOpacity={0}/>
                                             </linearGradient>
